@@ -4,7 +4,20 @@
 
 ## Overview
 
-This project provides an open‑source desktop tensile testing machine based on a single‑board computer (e.g., Raspberry Pi) and a bipolar stepper motor. A load cell (HX711 amplifier) measures force in real time, while a Python/Tkinter GUI allows you to configure and run test routines, logging all data to CSV.
+The tensile testing machine described here is a fully open-source device for determining
+the mechanical tensile strength of test specimens. At its core is a single-board computer
+(typically a Raspberry Pi), which, together with a load cell and an HX711 amplier, per-
+forms precise force measurements. A bipolar stepper-motor module handles the dened
+positioning and feed control, enabling reproducible loading proles.
+The goal of the project is to provide an aordable, modular test rig that can be used and
+further developed by hobbyists as well as research laboratories. Control is provided via
+an intuitive touch GUI (using ttkbootstrap and tkinter), which visualizes all relevant
+parameterstest length, feed rate, force-drop thresholdin real time and automatically
+saves measurement data to CSV logs through programmable routines.
+Thanks to the MIT open-source license, the entire source code is freely available on
+GitHub. The modular architecture and clear interfaces facilitate customization, exten-
+sion, and integration of additional sensors or actuators. This makes the tensile tester a
+exible platform for material testing, educational purposes, and DIY projects.
 
 ## Features
 
