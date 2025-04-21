@@ -19,6 +19,8 @@ GitHub. The modular architecture and clear interfaces facilitate customization, 
 sion, and integration of additional sensors or actuators. This makes the tensile tester a
 exible platform for material testing, educational purposes, and DIY projects.
 
+![Construction Diagram](Pictures/Diagram_Extrudr_PCTG.jpeg)
+
 ## Features
 
 - **Precise Force Measurement**  
