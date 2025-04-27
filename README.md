@@ -10,7 +10,7 @@ Thanks to the MIT open-source license, the entire source code is freely availabl
 
 Please Note: a good part of this project is made in german language
 
-IF you want to contribute please let me know 
+If you want to contribute please let me know 
 
 
 ![Construction Diagram](Pictures/Diagram_Extrudr_PCTG.jpeg)
