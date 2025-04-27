@@ -8,6 +8,9 @@ The tensile testing machine described here is a fully open-source device designe
 The goal of the project is to provide an affordable and modular testing rig that can be used and further developed by both hobbyists and research laboratories. Control is provided via an intuitive touch GUI (based on ttkbootstrap and tkinter), which visualizes all relevant parameters—test length, feed rate, and force-drop threshold—in real time and automatically saves measurement data to CSV logs.
 Thanks to the MIT open-source license, the entire source code is freely available on GitHub. The modular architecture and clear interfaces allow for customization, extensions, and the integration of additional sensors or actuators. This makes the tensile tester a flexible platform for material testing, educational purposes, and DIY projects.
 
+Please Note: a good part of this project is made in german language
+IF you want to contribute please let me know 
+
 
 ![Construction Diagram](Pictures/Diagram_Extrudr_PCTG.jpeg)
 
@@ -35,3 +38,10 @@ Thanks to the MIT open-source license, the entire source code is freely availabl
   - `gpiozero`  
   - `ttkbootstrap`  
   - `tkinter`
+
+## Samples 
+
+For good compareable data i would suggest you use the "sample typ cw" from this ropository. The infill should be 100%, the infill pattern rectalinear, with 2 wall loops. This will enshure you will get a homogeneous as possible infill as seen on th picture. Theres als a .3mf data in this repository you could use in Orca Slicer or "Anycubic next" Slicer. The sample contour is fetched from the ISO 20753, also to have good comparable data.
+
+
+![Construction Diagram](Pictures/Proben.png)
