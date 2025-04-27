@@ -4,20 +4,12 @@
 
 ## Overview
 
-The tensile testing machine described here is a fully open-source device for determining
-the mechanical tensile strength of test specimens. At its core is a single-board computer
-(typically a Raspberry Pi), which, together with a load cell and an HX711 amplier, per-
-forms precise force measurements. A bipolar stepper-motor module handles the dened
-positioning and feed control, enabling reproducible loading proles.
-The goal of the project is to provide an aordable, modular test rig that can be used and
-further developed by hobbyists as well as research laboratories. Control is provided via
-an intuitive touch GUI (using ttkbootstrap and tkinter), which visualizes all relevant
-parameterstest length, feed rate, force-drop thresholdin real time and automatically
-saves measurement data to CSV logs through programmable routines.
-Thanks to the MIT open-source license, the entire source code is freely available on
-GitHub. The modular architecture and clear interfaces facilitate customization, exten-
-sion, and integration of additional sensors or actuators. This makes the tensile tester a
-exible platform for material testing, educational purposes, and DIY projects.
+The tensile testing machine described here is a fully open-source device designed to determine the mechanical tensile strength of test specimens. At its core, it uses a single-board computer (typically a Raspberry Pi), which, in combination with a load cell and an HX711 amplifier, performs precise force measurements. A bipolar stepper motor module ensures defined positioning and feed control, enabling reproducible loading profiles.
+The goal of the project is to provide an affordable and modular testing rig that can be used and further developed by both hobbyists and research laboratories. Control is provided via an intuitive touch GUI (based on ttkbootstrap and tkinter), which visualizes all relevant parameters—test length, feed rate, and force-drop threshold—in real time and automatically saves measurement data to CSV logs.
+Thanks to the MIT open-source license, the entire source code is freely available on GitHub. The modular architecture and clear interfaces allow for customization, extensions, and the integration of additional sensors or actuators. This makes the tensile tester a flexible platform for material testing, educational purposes, and DIY projects.
+
+
+![Construction Diagram](Pictures/Diagram_Extrudr_PCTG.jpeg)
 
 ## Features
 
