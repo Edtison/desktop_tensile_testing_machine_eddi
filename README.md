@@ -46,3 +46,10 @@ For good compareable data i would suggest you use the "sample typ cw" from this 
 
 
 ![Construction Diagram](Pictures/Proben.png)
+
+## Addition Milled Sample Holder (10.05.2025)
+
+For a more consistant i've ordered a new sample holder milled from EN-AW7075 aluminum.
+You will find the data to that in 3D files and CNC Milled Tool for Type CW
+
+![milled sample holder](3D%20files/CNC%20Milled%20Tool%20for%20Type%20CW/20250510_121826.jpg)
