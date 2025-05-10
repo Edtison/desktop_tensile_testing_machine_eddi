@@ -13,7 +13,7 @@ Please Note: a good part of this project is made in german language
 If you want to contribute please let me know 
 
 
-![Construction Diagram](Pictures/Diagram_Extrudr_PCTG.jpeg)
+![Construction Diagram](Pictures/Extrudr%20PCTG%20255°C%20Werkzeug%20neu.png)
 
 ## Features
 
